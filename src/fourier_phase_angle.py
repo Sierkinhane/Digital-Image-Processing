@@ -21,10 +21,18 @@ cv2.imshow('11', PA)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-cv2.imshow('11', PA_2)
+cv2.imshow('11', f_2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 cv2.imshow('11', PA_3)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+f = np.fft.ifft2(F)
+print(f)
+
+print(f.dtype)
+cv2.imshow('11', np.abs(f))
 cv2.waitKey(0)
 cv2.destroyAllWindows()
