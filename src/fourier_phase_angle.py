@@ -21,7 +21,7 @@ cv2.imshow('11', PA)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-cv2.imshow('11', f_2)
+cv2.imshow('11', F_2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
